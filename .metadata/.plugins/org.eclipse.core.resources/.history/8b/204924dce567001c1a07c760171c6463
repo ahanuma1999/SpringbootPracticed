@@ -1,0 +1,6 @@
+package com.example.demo.dao;
+
+public class EmployeeInterface Implements CRUDRepository<Employee,Integer eid>{
+	
+
+}

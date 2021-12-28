@@ -1,0 +1,29 @@
+package com.example.demo;
+
+public class Alien {
+     private int Aid;
+     private String Aname;
+     private int Aage;
+	public int getAid() {
+		return Aid;
+	}
+	public void setAid(int aid) {
+		Aid = aid;
+	}
+	public String getAname() {
+		return Aname;
+	}
+	public void setAname(String aname) {
+		Aname = aname;
+	}
+	public int getAage() {
+		return Aage;
+	}
+	public void setAage(int aage) {
+		Aage = aage;
+	}
+	
+	public void post() {
+		System.out.println("posted");
+	}
+}
